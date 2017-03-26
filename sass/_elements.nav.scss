@@ -1,0 +1,59 @@
+nav, footer {
+    @include flexbox();
+    @include flexflow(row, nowrap);
+    justify-content: space-between;
+    width: 100%;
+    height: $navHeight;
+    padding: 0px 30px;
+    background-color: #FFA500;
+    box-sizing: border-box;
+    font-size: $navFontSize;
+    
+    ul {
+        margin: auto 0;
+        padding: 0px;
+        
+        li {
+            display: inline-block;
+            box-sizing: border-box;
+        }
+    }
+    
+    a {
+        display: inline-block;
+        box-sizing: border-box;
+        height: $navHeight;
+        color: #000;
+        margin: auto 0;
+        padding: 0px 20px;
+        text-decoration: none;
+        line-height: $navHeight;
+        
+        &:hover {
+            color: #fff;
+            background-color: #CC8400;
+            
+            i {
+                color: #fff;
+            }
+        }
+    }
+    
+    p {
+        margin: auto 0px;
+        line-height: 0px;
+    }
+    
+    i {
+        color: #000;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+nav {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+

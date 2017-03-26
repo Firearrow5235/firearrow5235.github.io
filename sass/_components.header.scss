@@ -1,0 +1,24 @@
+.profile-pic {
+    border-radius: 90px;
+    border: 5px solid $backgroundColor;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    background-image: url("../images/profile.jpg");
+    background-position: -95px -40px;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+
+.header-contact {
+    text-align: center;
+    padding: 25px 0px;
+    
+    a {
+        color: white;
+    }
+    
+    p {
+        color: white;
+    }
+}
