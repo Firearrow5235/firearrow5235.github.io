@@ -7,27 +7,57 @@
         <!-- Stylesheets -->
         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/style.css">
+        
+        <!-- Scripts -->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/nav.js?v=2"></script>
     </head>
     <body>
+        <a name="top" class="anchor"></a>
         <nav>
-            <a href="#top">Gavyn Leavitt - Web Developer</a>
+            <a href="#top" onclick="myScroll(this)">Gavyn Leavitt - Web Developer</a>
             <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#work">Work</a></li>
+                <li><a href="#work" onclick="myScroll(this)">My Work</a></li>
+                <li><a href="#about" onclick="myScroll(this)">About Me</a></li>
             </ul>
         </nav>
-        
-        <header>
-            <div class="profile-pic"></div>
-            <div class="header-contact">
-                <p>Email - <a href="mailto:gpleavitt5235@gmail.com">gpleavitt5235@gmail.com</a></p>
-            </div>
-        </header>
-        
+                
         <div class="content">
+            <section class="work">
+                <a name="work" class="anchor"></a>
+                <h2>My Work</h2>
+                <div class="work-piece" id="pixelshades">
+                    <a href="http://thepixelshades.com" target="_blank">
+                        <div class="work-description">
+                            <h3>PixelShades Website</h3>
+                            <p>Role - Designer/Developer</p>
+                            <p>A website I built for a long running personal project of mine</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="work-piece" id="fcc_indy">
+                    <a href="http://freecodecampindy.com/campers.html" target="_blank">
+                        <div class="work-description">
+                            <h3>FreeCodeCamp Indy Website</h3>
+                            <p>Role - Developer</p>
+                            <p>The website for the FreeCodeCamp Indy group. I built the "Campers" page.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="work-piece" id="larrys">
+                    <a href="http://larrystreefarm.com" target="_blank">
+                        <div class="work-description">
+                            <h3>Larry's Tree Farm Website</h3>
+                            <p>Role - Designer/Developer</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
             <section class="about">
                 <a name="about" class="anchor"></a>
                 <h2>About Me</h2>
+                <div class="profile-pic"></div>
                 <p>
                     Hello folks! My name is Gavyn. I currently live in Indianapolis. I am a programmer with over four years experience and I focus primarily on Full-Stack Web Development.
                 </p>
@@ -47,21 +77,8 @@
                     Besides programming my other interests include music, miniature wargaming, electronics, and metalworking.
                 </p>
             </section>
-            <section class="work">
-                <a name="work" class="anchor"></a>
-                <h2>My Work</h2>
-                <div class="work-piece">
-                    <h3><a href="http://thepixelshades.com" target="_blank">PixelShades Productions Website</a></h3>
-                    <img src="#" alt="PixelShades Website Image">
-                </div>
-                <div class="work-piece">
-                    <h3><a href="http://freecodecampindy.com/campers.html" target="_blank">FreeCodeCamp Indy Website</a></h3>
-                    <img src="#" alt="FreeCodeCamp Indy Website Image">
-                </div>
-                <div class="work-piece">
-                    <h3><a href="http://larrystreefarm.com" target="_blank">Larry's Tree Farm Website</a></h3>
-                    <img src="#" alt="Larry's Tree Farm Website Image">
-                </div>
+            <section class="contact">
+                <a name="contact" class="anchor"></a>
             </section>
         </div>
         

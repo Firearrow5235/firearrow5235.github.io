@@ -709,16 +709,63 @@ td {
   width: 300px;
   height: 300px;
   margin: 12px;
-  padding: 15px;
-  background-color: #fff;
+  vertical-align: top;
+  vertical-align: bottom;
+  background-position: center;
+  background-size: auto 100%;
   border-radius: 5px;
   box-shadow: 0px 0px 7px #000;
-  text-align: center;
 }
 
-/* line 17, C:/wamp/www/portfolio/sass/_components.work.scss */
+/* line 18, C:/wamp/www/portfolio/sass/_components.work.scss */
 .work-piece img {
   width: 100%;
+}
+
+/* line 22, C:/wamp/www/portfolio/sass/_components.work.scss */
+.work-piece a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 28, C:/wamp/www/portfolio/sass/_components.work.scss */
+.work-description {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  opacity: 0;
+  background-color: rgba(55, 55, 55, 0.9);
+  border-radius: 5px;
+  text-align: center;
+  transition: opacity .3s;
+}
+
+/* line 39, C:/wamp/www/portfolio/sass/_components.work.scss */
+.work-description:hover {
+  opacity: 1;
+  transition: opacity .6s;
+}
+
+/* line 44, C:/wamp/www/portfolio/sass/_components.work.scss */
+.work-description h3 {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 1, C:/wamp/www/portfolio/sass/_trumps.work.scss */
+#pixelshades {
+  background-image: url("../images/pixelshades.jpg");
+}
+
+/* line 5, C:/wamp/www/portfolio/sass/_trumps.work.scss */
+#fcc_indy {
+  background-image: url("../images/fcc_indy.jpg");
+}
+
+/* line 9, C:/wamp/www/portfolio/sass/_trumps.work.scss */
+#larrys {
+  background-image: url("../images/larrys.jpg");
 }
 
 /*# sourceMappingURL=../css/style.map */
