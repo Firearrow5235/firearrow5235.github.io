@@ -1,0 +1,5 @@
+@keyframes background-anim {
+    0% {background-color: $animColor1};
+    50% {background-color: $animColor2};
+    100% { background-color: $animColor1};
+}

@@ -8,6 +8,7 @@ nav, footer {
     background-color: #FFA500;
     box-sizing: border-box;
     font-size: $navFontSize;
+    z-index: 3;
     
     ul {
         margin: auto 0;
@@ -42,6 +43,7 @@ nav, footer {
     p {
         margin: auto 0px;
         line-height: 0px;
+        color: inherit;
     }
     
     i {

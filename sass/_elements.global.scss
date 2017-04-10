@@ -1,6 +1,8 @@
 html {
     font-size: 10px;
-    background-color: $backgroundColor;
+    animation-name: background-anim;
+    animation-duration: 300s;
+    animation-iteration-count: infinite;
 }
 
 body {
