@@ -5,7 +5,7 @@ nav, footer {
     width: 100%;
     height: $navHeight;
     padding: 0px 30px;
-    background-color: #FFA500;
+    background-color: $navBackground;
     box-sizing: border-box;
     font-size: $navFontSize;
     z-index: 3;

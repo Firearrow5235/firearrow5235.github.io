@@ -2,13 +2,13 @@
 /* Colors */
 @keyframes background-anim {
   0% {
-    background-color: #000055;
+    background-color: #0b2374;
   }
   50% {
-    background-color: #005000;
+    background-color: #00821d;
   }
   100% {
-    background-color: #000055;
+    background-color: #0b2374;
   }
 }
 
@@ -518,28 +518,33 @@ body {
 }
 
 /* line 1, C:/wamp/www/portfolio/sass/_elements.text.scss */
-h1, h2, h3, h4, h5, h6, p {
-  color: #fff;
+p {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /* line 5, C:/wamp/www/portfolio/sass/_elements.text.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #5cd978;
+}
+
+/* line 9, C:/wamp/www/portfolio/sass/_elements.text.scss */
 h2 {
   font-size: 2.8rem;
   text-align: center;
 }
 
-/* line 10, C:/wamp/www/portfolio/sass/_elements.text.scss */
+/* line 14, C:/wamp/www/portfolio/sass/_elements.text.scss */
 h3 {
   font-size: 2rem;
 }
 
-/* line 14, C:/wamp/www/portfolio/sass/_elements.text.scss */
+/* line 18, C:/wamp/www/portfolio/sass/_elements.text.scss */
 p {
   font-size: 1.6rem;
   line-height: 1.6;
 }
 
-/* line 19, C:/wamp/www/portfolio/sass/_elements.text.scss */
+/* line 23, C:/wamp/www/portfolio/sass/_elements.text.scss */
 a {
   font-size: 1.6rem;
   line-height: 1.6;
@@ -558,7 +563,7 @@ nav, footer {
   width: 100%;
   height: 50px;
   padding: 0px 30px;
-  background-color: #FFA500;
+  background-color: #ff8714;
   box-sizing: border-box;
   font-size: 16px;
   z-index: 3;
@@ -685,14 +690,14 @@ td {
   width: 1000px;
   margin: 0 auto;
   padding: 10px 10px 50px 10px;
-  background-color: #555;
+  background-color: #202020;
   box-sizing: border-box;
 }
 
 /* line 1, C:/wamp/www/portfolio/sass/_components.header.scss */
 .profile-pic {
   border-radius: 90px;
-  border: 5px solid #555;
+  border: 5px solid #202020;
   width: 150px;
   height: 150px;
   margin: 0 auto;
@@ -756,7 +761,7 @@ td {
   height: 100%;
   padding: 12px;
   opacity: 0;
-  background-color: rgba(32, 32, 32, 0.95);
+  background-color: rgba(15, 15, 15, 0.95);
   border-radius: 5px;
   text-align: center;
   transition: opacity .3s;
