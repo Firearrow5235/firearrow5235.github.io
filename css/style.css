@@ -2,13 +2,13 @@
 /* Colors */
 @keyframes background-anim {
   0% {
-    background-color: #0b2374;
+    background-color: #004e66;
   }
   50% {
     background-color: #00821d;
   }
   100% {
-    background-color: #0b2374;
+    background-color: #004e66;
   }
 }
 
@@ -519,7 +519,7 @@ body {
 
 /* line 1, C:/wamp/www/portfolio/sass/_elements.text.scss */
 p {
-  color: rgba(255, 255, 255, 0.5);
+  color: #e1eef6;
 }
 
 /* line 5, C:/wamp/www/portfolio/sass/_elements.text.scss */
@@ -563,7 +563,7 @@ nav, footer {
   width: 100%;
   height: 50px;
   padding: 0px 30px;
-  background-color: #ff8714;
+  background-color: #fcbe32;
   box-sizing: border-box;
   font-size: 16px;
   z-index: 3;
@@ -635,8 +635,8 @@ header {
   -webkit-flex-flow: column nowrap;
   flex-flow: column nowrap;
   justify-content: center;
-  width: 1000px;
-  height: 450px;
+  width: 1024px;
+  height: 460.8px;
   background-image: url("../images/header_background.jpg");
   background-position: center;
   background-size: 100%;
@@ -675,7 +675,7 @@ td {
 /* line 5, C:/wamp/www/portfolio/sass/_objects.scss */
 .text-section, .about, .contact {
   text-align: center;
-  width: 600px;
+  width: 614.4px;
   margin: 0px auto;
 }
 
@@ -687,7 +687,7 @@ td {
 
 /* line 1, C:/wamp/www/portfolio/sass/_objects.wrappers.scss */
 .content {
-  width: 1000px;
+  width: 1024px;
   margin: 0 auto;
   padding: 10px 10px 50px 10px;
   background-color: #202020;
@@ -732,8 +732,8 @@ td {
 .work-piece {
   display: inline-block;
   box-sizing: border-box;
-  width: 300px;
-  height: 300px;
+  width: 308px;
+  height: 308px;
   margin: 12px;
   vertical-align: top;
   vertical-align: bottom;
@@ -777,6 +777,61 @@ td {
 .work-description h3 {
   margin: 0px;
   padding: 0px;
+}
+
+@media screen and (max-width: 1000px) {
+  /* line 4, C:/wamp/www/portfolio/sass/_responsive.scss */
+  .content {
+    width: 687px;
+  }
+  /* line 8, C:/wamp/www/portfolio/sass/_responsive.scss */
+  .work-description {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 687px) {
+  /* line 16, C:/wamp/www/portfolio/sass/_responsive.scss */
+  .content {
+    width: 600px;
+  }
+  /* line 20, C:/wamp/www/portfolio/sass/_responsive.scss */
+  .work-piece {
+    width: 264px;
+    height: 264px;
+  }
+  /* line 25, C:/wamp/www/portfolio/sass/_responsive.scss */
+  .text-section, .about, .contact {
+    box-sizing: border-box;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* line 34, C:/wamp/www/portfolio/sass/_responsive.scss */
+  .content {
+    width: 480px;
+  }
+  /* line 38, C:/wamp/www/portfolio/sass/_responsive.scss */
+  .work-piece {
+    display: block;
+    margin: 12px auto;
+    width: 296px;
+    height: 296px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* line 49, C:/wamp/www/portfolio/sass/_responsive.scss */
+  .content {
+    width: 320px;
+  }
+  /* line 53, C:/wamp/www/portfolio/sass/_responsive.scss */
+  .work-piece {
+    margin: 12px auto;
+    width: 296px;
+    height: 296px;
+  }
 }
 
 /* line 1, C:/wamp/www/portfolio/sass/_trumps.work.scss */
