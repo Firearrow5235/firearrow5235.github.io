@@ -10,3 +10,9 @@ function myScroll(link) {
     
     return false;
 }
+
+function navToggle() {
+    var menu = $("#nav-menu");
+    
+    menu.slideToggle(200);
+}

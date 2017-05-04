@@ -5,7 +5,7 @@
     background-color: #004e66;
   }
   50% {
-    background-color: #00821d;
+    background-color: #018742;
   }
   100% {
     background-color: #004e66;
@@ -518,33 +518,38 @@ body {
 }
 
 /* line 1, C:/wamp/www/portfolio/sass/_elements.text.scss */
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Lato', sans-serif;
+}
+
+/* line 5, C:/wamp/www/portfolio/sass/_elements.text.scss */
 p {
   color: #e1eef6;
 }
 
-/* line 5, C:/wamp/www/portfolio/sass/_elements.text.scss */
+/* line 9, C:/wamp/www/portfolio/sass/_elements.text.scss */
 h1, h2, h3, h4, h5, h6 {
-  color: #5cd978;
+  color: #018742;
 }
 
-/* line 9, C:/wamp/www/portfolio/sass/_elements.text.scss */
+/* line 13, C:/wamp/www/portfolio/sass/_elements.text.scss */
 h2 {
   font-size: 2.8rem;
   text-align: center;
 }
 
-/* line 14, C:/wamp/www/portfolio/sass/_elements.text.scss */
+/* line 18, C:/wamp/www/portfolio/sass/_elements.text.scss */
 h3 {
   font-size: 2rem;
 }
 
-/* line 18, C:/wamp/www/portfolio/sass/_elements.text.scss */
+/* line 22, C:/wamp/www/portfolio/sass/_elements.text.scss */
 p {
   font-size: 1.6rem;
   line-height: 1.6;
 }
 
-/* line 23, C:/wamp/www/portfolio/sass/_elements.text.scss */
+/* line 27, C:/wamp/www/portfolio/sass/_elements.text.scss */
 a {
   font-size: 1.6rem;
   line-height: 1.6;
@@ -559,20 +564,20 @@ nav, footer {
   display: flex;
   -webkit-flex-flow: row nowrap;
   flex-flow: row nowrap;
+  font-family: 'Squada One', sans-serif;
   justify-content: space-between;
   width: 100%;
   height: 50px;
-  padding: 0px 30px;
   background-color: #fcbe32;
   box-sizing: border-box;
-  font-size: 16px;
-  z-index: 3;
+  font-size: 2rem;
 }
 
-/* line 13, C:/wamp/www/portfolio/sass/_elements.nav.scss */
+/* line 12, C:/wamp/www/portfolio/sass/_elements.nav.scss */
 nav ul, footer ul {
   margin: auto 0;
   padding: 0px;
+  display: block;
 }
 
 /* line 17, C:/wamp/www/portfolio/sass/_elements.nav.scss */
@@ -583,6 +588,8 @@ nav ul li, footer ul li {
 
 /* line 23, C:/wamp/www/portfolio/sass/_elements.nav.scss */
 nav a, footer a {
+  font-family: inherit;
+  font-size: inherit;
   display: inline-block;
   box-sizing: border-box;
   height: 50px;
@@ -593,32 +600,46 @@ nav a, footer a {
   line-height: 50px;
 }
 
-/* line 33, C:/wamp/www/portfolio/sass/_elements.nav.scss */
+/* line 35, C:/wamp/www/portfolio/sass/_elements.nav.scss */
 nav a:hover, footer a:hover {
-  color: #fff;
-  background-color: #ac5400;
+  background-color: #d6a12a;
+  font-size: 2.2rem;
 }
 
-/* line 37, C:/wamp/www/portfolio/sass/_elements.nav.scss */
-nav a:hover i, footer a:hover i {
-  color: #fff;
-}
-
-/* line 43, C:/wamp/www/portfolio/sass/_elements.nav.scss */
+/* line 41, C:/wamp/www/portfolio/sass/_elements.nav.scss */
 nav p, footer p {
+  font-family: inherit;
+  font-size: inherit;
   margin: auto 0px;
   line-height: 0px;
+  padding: 20px;
   color: inherit;
+  z-index: 3;
 }
 
-/* line 49, C:/wamp/www/portfolio/sass/_elements.nav.scss */
+/* line 51, C:/wamp/www/portfolio/sass/_elements.nav.scss */
 nav i, footer i {
   color: #000;
   margin: 0px;
   padding: 0px;
 }
 
-/* line 56, C:/wamp/www/portfolio/sass/_elements.nav.scss */
+/* line 57, C:/wamp/www/portfolio/sass/_elements.nav.scss */
+nav .nav-toggle, footer .nav-toggle {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  display: none;
+}
+
+/* line 64, C:/wamp/www/portfolio/sass/_elements.nav.scss */
+nav .nav-toggle:hover, footer .nav-toggle:hover {
+  background-color: #d6a12a;
+  font-size: 2.2rem;
+}
+
+/* line 71, C:/wamp/www/portfolio/sass/_elements.nav.scss */
 nav {
   position: fixed;
   right: 0px;
@@ -819,14 +840,35 @@ td {
     width: 296px;
     height: 296px;
   }
+  /* line 46, C:/wamp/www/portfolio/sass/_responsive.scss */
+  nav ul {
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    display: none;
+  }
+  /* line 52, C:/wamp/www/portfolio/sass/_responsive.scss */
+  nav ul li {
+    background-color: #fcbe32;
+    width: 100%;
+  }
+  /* line 56, C:/wamp/www/portfolio/sass/_responsive.scss */
+  nav ul li a {
+    text-align: center;
+    width: 100%;
+  }
+  /* line 63, C:/wamp/www/portfolio/sass/_responsive.scss */
+  nav .nav-toggle {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 480px) {
-  /* line 49, C:/wamp/www/portfolio/sass/_responsive.scss */
+  /* line 72, C:/wamp/www/portfolio/sass/_responsive.scss */
   .content {
     width: 320px;
   }
-  /* line 53, C:/wamp/www/portfolio/sass/_responsive.scss */
+  /* line 76, C:/wamp/www/portfolio/sass/_responsive.scss */
   .work-piece {
     margin: 12px auto;
     width: 296px;

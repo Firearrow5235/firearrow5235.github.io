@@ -1,18 +1,18 @@
 nav, footer {
     @include flexbox();
     @include flexflow(row, nowrap);
+    font-family: 'Squada One', sans-serif;
     justify-content: space-between;
     width: 100%;
     height: $navHeight;
-    padding: 0px 30px;
     background-color: $navBackground;
     box-sizing: border-box;
     font-size: $navFontSize;
-    z-index: 3;
     
     ul {
         margin: auto 0;
         padding: 0px;
+        display: block;
         
         li {
             display: inline-block;
@@ -21,6 +21,8 @@ nav, footer {
     }
     
     a {
+        font-family: inherit;
+        font-size: inherit;
         display: inline-block;
         box-sizing: border-box;
         height: $navHeight;
@@ -31,25 +33,38 @@ nav, footer {
         line-height: $navHeight;
         
         &:hover {
-            color: #fff;
-            background-color: #ac5400;
-            
-            i {
-                color: #fff;
-            }
+            background-color: $navHover;
+            font-size: $navFontSize + .2rem;
         }
     }
     
     p {
+        font-family: inherit;
+        font-size: inherit;
         margin: auto 0px;
         line-height: 0px;
+        padding: 20px;
         color: inherit;
+        z-index: 3;
     }
     
     i {
         color: #000;
         margin: 0px;
         padding: 0px;
+    }
+    
+    .nav-toggle {
+        height: $navHeight;
+        width: $navHeight;
+        text-align: center;
+        line-height: $navHeight;
+        display: none;
+        
+        &:hover {
+            background-color: $navHover;
+            font-size: $navFontSize + .2rem;
+        }
     }
 }
 

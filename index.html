@@ -6,24 +6,39 @@
         
         <!-- Stylesheets -->
         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Bevan|Squada+One" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
         <link rel="stylesheet" href="css/style.css">
         
         <!-- Scripts -->
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="js/nav.js?v=2"></script>
+        <script src="js/nav.js?v=12"></script>
     </head>
     <body>
         <a name="top" class="anchor"></a>
         <nav>
             <a href="#top" onclick="myScroll(this)">Gavyn Leavitt - Web Developer</a>
-            <ul>
-                <li><a href="#work" onclick="myScroll(this)">My Work</a></li>
+            <ul id="nav-menu">
                 <li><a href="#about" onclick="myScroll(this)">About Me</a></li>
+                <li><a href="#work" onclick="myScroll(this)">My Work</a></li>
             </ul>
+            <i class="fa fa-bars nav-toggle" onclick="navToggle()"></i>
         </nav>
                 
         <div class="content">
+            <section class="about">
+                <a name="about" class="anchor"></a>
+                <h2>About Me</h2>
+                <div class="profile-pic"></div>
+                <p>
+                    Hello folks! My name is Gavyn. I am a mostly self-taught developer with over four years of experience. My focus is Web Development, but I've tinkered with Mobile Development, Desktop App Development, and Game Development as well. 
+                </p>
+                <h3>The Technical Bits</h3>
+                <p>
+                    For everyday web work my tools consist of HTML5/CSS3, Sass, Javascript/jQuery, PHP, and Git. For more advanced projects I mainly use Laravel. Beyond web I'm well versed in C# and Python. I also have experience with Java, C++, AngularJS, and MySQL.
+                </p>
+            </section>
             <section class="work">
                 <a name="work" class="anchor"></a>
                 <h2>My Work</h2>
@@ -54,25 +69,13 @@
                     </a>
                 </div>
             </section>
-            <section class="about">
-                <a name="about" class="anchor"></a>
-                <h2>About Me</h2>
-                <div class="profile-pic"></div>
-                <p>
-                    Hello folks! My name is Gavyn. I am a mostly self-taught developer with over four years of experience. My focus is Web Development, but I've tinkered with Mobile Development, Desktop App Development, and Game Development as well. 
-                </p>
-                <h3>The Technical Bits</h3>
-                <p>
-                    For everyday web work my tools consist of HTML5/CSS3, Sass, Javascript/jQuery, PHP, and Git. For more advanced projects I mainly use Laravel. Beyond web I'm well versed in C# and Python. I also have experience with Java, C++, AngularJS, and MySQL.
-                </p>
-            </section>
             <section class="contact">
                 <a name="contact" class="anchor"></a>
             </section>
         </div>
         
         <footer>
-            <p>Gavyn Leavitt 2017</p>
+            <p>Gavyn Leavitt - 2017</p>
             <ul>
                 <li><a href="https://github.com/Firearrow5235" target="_blank"><i class="fa fa-github"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/gavyn-leavitt-459807126/" target="_blank"><i class="fa fa-linkedin"></i></a></li>

@@ -41,6 +41,29 @@
         width: 296px;
         height: 296px;
     }
+    
+    nav {
+        ul {
+            position: fixed;
+            top: $navHeight;
+            width: 100%;
+            display: none;
+            
+            li {
+                background-color: $navBackground;
+                width: 100%;
+                
+                a {
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+        }
+        
+        .nav-toggle {
+            display: block;        
+        }
+    }
 }
 
 @media screen and (max-width: 480px) {
