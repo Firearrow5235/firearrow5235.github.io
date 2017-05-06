@@ -861,14 +861,21 @@ td {
   nav .nav-toggle {
     display: block;
   }
+  /* line 68, C:/wamp/www/portfolio/sass/_responsive.scss */
+  footer {
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    height: 100px;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 480px) {
-  /* line 72, C:/wamp/www/portfolio/sass/_responsive.scss */
+  /* line 78, C:/wamp/www/portfolio/sass/_responsive.scss */
   .content {
     width: 320px;
   }
-  /* line 76, C:/wamp/www/portfolio/sass/_responsive.scss */
+  /* line 82, C:/wamp/www/portfolio/sass/_responsive.scss */
   .work-piece {
     margin: 12px auto;
     width: 296px;

@@ -64,6 +64,12 @@
             display: block;        
         }
     }
+    
+    footer {
+            @include flexflow(column, nowrap);
+            height: $navHeight * 2;
+            text-align: center;
+    }
 }
 
 @media screen and (max-width: 480px) {
