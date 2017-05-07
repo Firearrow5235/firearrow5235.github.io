@@ -806,22 +806,27 @@ td {
     width: 687px;
   }
   /* line 8, C:/wamp/www/portfolio/sass/_responsive.scss */
+  .work-piece {
+    width: 307px;
+    height: 307px;
+  }
+  /* line 13, C:/wamp/www/portfolio/sass/_responsive.scss */
   .work-description {
     opacity: 1;
   }
 }
 
 @media screen and (max-width: 687px) {
-  /* line 16, C:/wamp/www/portfolio/sass/_responsive.scss */
+  /* line 21, C:/wamp/www/portfolio/sass/_responsive.scss */
   .content {
     width: 600px;
   }
-  /* line 20, C:/wamp/www/portfolio/sass/_responsive.scss */
+  /* line 25, C:/wamp/www/portfolio/sass/_responsive.scss */
   .work-piece {
     width: 264px;
     height: 264px;
   }
-  /* line 25, C:/wamp/www/portfolio/sass/_responsive.scss */
+  /* line 30, C:/wamp/www/portfolio/sass/_responsive.scss */
   .text-section, .about, .contact {
     box-sizing: border-box;
     width: 100%;
@@ -829,39 +834,39 @@ td {
 }
 
 @media screen and (max-width: 600px) {
-  /* line 34, C:/wamp/www/portfolio/sass/_responsive.scss */
+  /* line 39, C:/wamp/www/portfolio/sass/_responsive.scss */
   .content {
     width: 480px;
   }
-  /* line 38, C:/wamp/www/portfolio/sass/_responsive.scss */
+  /* line 43, C:/wamp/www/portfolio/sass/_responsive.scss */
   .work-piece {
     display: block;
     margin: 12px auto;
     width: 296px;
     height: 296px;
   }
-  /* line 46, C:/wamp/www/portfolio/sass/_responsive.scss */
+  /* line 51, C:/wamp/www/portfolio/sass/_responsive.scss */
   nav ul {
     position: fixed;
     top: 50px;
     width: 100%;
     display: none;
   }
-  /* line 52, C:/wamp/www/portfolio/sass/_responsive.scss */
+  /* line 57, C:/wamp/www/portfolio/sass/_responsive.scss */
   nav ul li {
     background-color: #fcbe32;
     width: 100%;
   }
-  /* line 56, C:/wamp/www/portfolio/sass/_responsive.scss */
+  /* line 61, C:/wamp/www/portfolio/sass/_responsive.scss */
   nav ul li a {
     text-align: center;
     width: 100%;
   }
-  /* line 63, C:/wamp/www/portfolio/sass/_responsive.scss */
+  /* line 68, C:/wamp/www/portfolio/sass/_responsive.scss */
   nav .nav-toggle {
     display: block;
   }
-  /* line 68, C:/wamp/www/portfolio/sass/_responsive.scss */
+  /* line 73, C:/wamp/www/portfolio/sass/_responsive.scss */
   footer {
     -webkit-flex-flow: column nowrap;
     flex-flow: column nowrap;
@@ -871,11 +876,11 @@ td {
 }
 
 @media screen and (max-width: 480px) {
-  /* line 78, C:/wamp/www/portfolio/sass/_responsive.scss */
+  /* line 83, C:/wamp/www/portfolio/sass/_responsive.scss */
   .content {
     width: 320px;
   }
-  /* line 82, C:/wamp/www/portfolio/sass/_responsive.scss */
+  /* line 87, C:/wamp/www/portfolio/sass/_responsive.scss */
   .work-piece {
     margin: 12px auto;
     width: 296px;
